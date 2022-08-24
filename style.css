@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(179, 105, 25);
+}
+
+.hanging-pole {
+
+  background-color: rgb(52, 47, 47);
+  width: 7vw;
+  height: 20vh;
+}
+
+.light-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 30vh;
+  background-color: rgb(52, 47, 47);
+}
+
+
+
+/* NOTE jake noted the formate saver named prettier might conflict with other extentions later down the cohort. */
+
+/* NOTE CSS styling only applies to the parent and it's children node, 1 generation down */
+
+/* NOTE elements stop stacking on eachother horizontanlly use flex-firection */
+.stop-light{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light{
+  height: 15vh;
+  width: 15vh;
+  margin-bottom: 1em;
+  border-radius: 50%;
+ 
+}
+
+
+.red{
+  margin-top: 1.5rem;
+  background-color: red;
+
+}
+
+.red:hover{
+  background-color: rgb(255, 115, 115) ;
+  transition: ease-in-out .3s;
+  box-shadow:0 0 30px red;
+}
+
+.yellow{
+  background-color: rgb(255, 238, 0);
+  
+}
+
+.yellow:hover{
+  
+  background-color: rgb(244, 233, 116) ;
+  transition: ease-in-out .3s;
+  box-shadow:0 0 30px rgb(255, 238, 0);
+}
+.green{
+  margin-bottom: 1.5rem;
+  background-color:greenyellow;
+
+}
+
+.green:hover{
+  background-color: rgb(169, 255, 120) ;
+  transition: ease-in-out .3s;
+  box-shadow:0 0 30px greenyellow;
+}
